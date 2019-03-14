@@ -43,7 +43,7 @@ mkdir flask_boilerplate # PACKAGE MUST BE ALL LOWER CASE AND UNDERSCORE ONLY!!!!
 cd flask_boilerplate
 code __init__.py # 2 underscores
 ```
-###### inside __init__.py
+##### inside __init__.py
 
 ```
 from flask import Flask
