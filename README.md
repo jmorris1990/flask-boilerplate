@@ -2,7 +2,7 @@
 
 ## 1. Make a directory and cd into it. This is the project root.
 ```
-mkdir
+mkdir flask-boilerplate
 ```
 
 ## 2. Run git init and make a .gitignore file.
@@ -22,14 +22,14 @@ code setup.py
 python3 -m venv venv
 source venv/bin/activate
 ```
-### deactivate with 'deactivate'
+###### deactivate with 'deactivate'
 
 ## 5. Install dependencies with pip.
 ```
 pip install -e .
 pip install -e '.[test]' # developer dependencies
 ```
-### check dependencies with 'which (dependency)'
+###### check dependencies with 'which (dependency)'
 
 ## 6. Set up Flask's environment variables for bash.
 ```
@@ -43,7 +43,7 @@ mkdir flask_boilerplate # PACKAGE MUST BE ALL LOWER CASE AND UNDERSCORE ONLY!!!!
 cd flask_boilerplate
 code __init__.py # 2 underscores
 ```
-### inside __init__.py
+###### inside __init__.py
 
 ```
 from flask import Flask
@@ -61,4 +61,4 @@ def create_app():
 ```
 
 
-### flask run command must be run from project directory, not package directory
+###### flask run command must be run from project directory, not package directory
