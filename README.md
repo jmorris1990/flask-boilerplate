@@ -41,7 +41,7 @@ export FLASK_ENV=development
 ```
 mkdir flask_boilerplate # package name may only contain lowercased alphanumeric characters and underscores
 cd flask_boilerplate
-code __init__.py # 2 underscores
+vi __init__.py # 2 underscores
 ```
 ##### inside __init__.py
 
